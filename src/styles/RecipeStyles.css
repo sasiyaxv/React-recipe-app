@@ -1,0 +1,38 @@
+.recipe-wrapper {
+  text-align: center;
+  /* padding: 1vw; */
+  margin: 3vw;
+
+  /* background-color: rgba(87, 154, 209, 0.829); */
+  height: 300px;
+  width: 300px;
+
+  /* margin: 1vw 1vw 1vw 1vw; */
+}
+
+.image-food {
+  border-radius: 1vw;
+}
+
+.recipe-wrapper :hover {
+  transform: scale(1.2);
+  transition: 2s;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 1vw;
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #242829;
+}
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: white;
+}
